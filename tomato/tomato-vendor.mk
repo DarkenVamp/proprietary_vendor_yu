@@ -189,7 +189,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/tomato/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/yu/tomato/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/yu/tomato/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
-    vendor/yu/tomato/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/yu/tomato/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
     vendor/yu/tomato/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/yu/tomato/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
@@ -268,7 +267,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/tomato/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/yu/tomato/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/yu/tomato/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
-    vendor/yu/tomato/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
     vendor/yu/tomato/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
     vendor/yu/tomato/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
     vendor/yu/tomato/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
@@ -302,6 +300,7 @@ PRODUCT_PACKAGES += \
     libwpa_qmi_eap_proxy \
     libqcci_legacy \
     libqmi \
+    libqmi_cci \
     libqmi_client_qmux \
     libqmiservices \
     libtime_genoff \
